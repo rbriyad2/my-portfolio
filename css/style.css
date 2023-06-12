@@ -435,9 +435,10 @@ h6 {
   color: #fd562a;
 }
 .hero-area .de-hero-1 {
-  left: 8%;
-  top: 22%;
+  left: 35%;
+  top: 59%;
   position: absolute;
+  z-index: 99;
 }
 .hero-area .de-hero-2 {
   right: 7%;
@@ -1384,6 +1385,22 @@ h6 {
 }
 .partner-section .image-wrapper {
   text-align: center;
+}
+.seemore{
+padding: 15px 42px;
+background: #fd562a;
+color: #fff;
+border-radius: 5px;
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+text-align: center;
+justify-self: center;
+border: none;
+transition: all linear.3s;
+}
+.seemore:hover{
+  color: #272727;
+  background-color: #e0e0e0;
 }
 /***********************************************************
   15. Contact Section

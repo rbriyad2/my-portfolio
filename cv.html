@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Developer Riyad - Online CV</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_normalize_5.0.0_normalize.min.css">
+	<link rel='stylesheet' href='css/cdnjs.cloudflare.com_ajax_libs_materialize_0.97.8_css_materialize.min.css'>
+	<link rel="stylesheet" href="./css/cv.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<header>
+		<div class="navbar-fixed hide-on-large-only">
+			<nav class="grey darken-3 z-depth-3">
+				<div class="nav-wrapper">
+					<a href="#" data-activates="cv-nav" class="button-collapse">
+						<i class="material-icons">menu</i>
+					</a>
+					<a href="#" class="brand-logo center">Online Resume</a>
+				</div>
+			</nav>
+		</div>
+		<ul id="cv-nav" class="side-nav fixed center-align grey darken-3 z-depth-3">
+			<li class="cv-title light-green"><a href="#fullname" class="cv-spclink waves-effect waves-light">Md Rannu
+					Ahmed</a></li>
+			<li class="cv-title"><a href="#objective" class="light-green-text waves-effect waves-light">Career
+					Objective</a></li>
+			<li class="cv-title"><a href="#skill" class="light-green-text waves-effect waves-light">Technical Skills</a>
+			</li>
+			<li class="cv-title"><a href="#experience" class="light-green-text waves-effect waves-light">Experience</a>
+			</li>
+			<li class="cv-title"><a href="#education" class="light-green-text waves-effect waves-light">Education</a>
+			</li>
+			<li class="cv-title"><a href="#honoraward"
+					class="light-green-text waves-effect waves-light">Honors/Awards</a></li>
+			<li class="cv-title white"><a href="#!" class="light-green-text text-darken-4 waves-effect waves-green"
+					onclick="print_doc('#cv-printable')">Print Resume</a></li>
+		</ul>
+	</header>
+	<main class="cv-nonprintable">
+		<div class="cv-wrapper container">
+			<div class="card z-depth-4 center grey lighten-3">
+				<div class="divider cv-topborder light-green"></div>
+				<div id="fullname" class="row scrollspy">
+					<div class="card-content cv-header">
+						<div class="col s6 l3 offset-s3">
+							<div class="cv-photowrapper white z-depth-2">
+								<img src="images/6.jpg" alt="jkrisc" class="responsive-img" />
+							</div>
+						</div>
+						<div class="col s12 l9 cv-pinfogroup">
+							<div><span class="card-title cv-fullname cv-title">Md Rannu Ahmed</span></div>
+							<div class="cv-personalinfo">
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny yellow-text text-darken-4">work</i> Web Developer
+								</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny pink-text">location_on</i> Mirpur 2, Dhaka</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny indigo-text">stay_primary_portrait</i> +8801650112891
+								</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny green-text">email</i> rbriyad2@gmail.com</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divider grey"></div>
+				<div class="card-content cv-body white center">
+					<div id="objective" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3">Career Objective</div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12 cv-co">
+								To make an excellent career as a Team Controller, I would like to build career having a
+								challenging position with a well-structured organization that is rapidly expanding &
+								effort good advancement potential to prove my knowledge, efficiency, skill and
+								experience. I also like a position with strong emphasis on marketing sector to lead a
+								challenging professional life with a long-term career goal.
+							</div>
+						</div>
+					</div>
+					<div id="skill" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3">Technical Skills</div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<div class="cv-subtitle light-green-text text-darken-3">Programming Skills</div>
+								<div class="col s12 l6">
+
+									<ul class="cv-list browser-default">
+
+										<!-- <li>Angular Material <span class="cv-spctext grey-text">Framework</span></li> -->
+										<li>Javascript</li>
+										<li>MS SQL Server</li>
+										<li>Bootstrap</li>
+										<li>jQuery</li>
+										<li>HTML 5</li>
+										<li>CSS 3</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div id="skill" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3"></div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<div class="cv-subtitle light-green-text text-darken-3">Others Skills</div>
+								<div class="col s12 l6">
+
+									<ul class="cv-list browser-default">
+
+										<!-- <li>Angular Material <span class="cv-spctext grey-text">Framework</span></li> -->
+										<li>Adobe Photoshop Illustrator, Figma, Canva</li>
+										<li>Operating System: Any windows version and android.</li>
+										<li>Office Suite: MS Word, MS Excel, MS Power Point.</li>
+										<li>Online: Support, Website & Server Management</li>
+										<li>Internet: Internet browsing, E-mail , Marketing, Social Media etc</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- <div id="experience" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3">Experience</div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<div>
+									<span class="cv-subtitle light-green-text text-darken-3">Software Developer</span>
+									<span class="new badge light-green"
+										data-badge-caption="January 2023 - Present"></span>
+								</div>
+								<div>
+									<span class="cv-sub grey-text">Injaz National General Enterprises L.L.C., Abu Dhabi,
+										UAE</span>
+								</div>
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Modular Platform for Integrated Systems</span>
+									<ul class="cv-list browser-default">
+										<li>Coordinated with the project engineer/head of innovation to come up with a
+											plan to develop a modular system consisting of the following: <ol>
+												
+									
+											
+											</ol>
+										</li>
+									</ul>
+									
+				
+									
+									
+									<span class="cv-listtitle">Web Application for Creating Daily Job Records</span>
+									<ul class="cv-list browser-default">
+										<li>Coordinated and gathered requirements and information about a Road Marking
+											Company's current daily-job-record-managing operation and planned on
+											developing a system for managing projects and storing daily job records
+											which provides an easy way to generate monthly or weekly reports.</li>
+								
+									</ul>
+								</div>
+							</div>
+							<div class="col s12 l12">
+								<div>
+									<span class="cv-subtitle light-green-text text-darken-3">IT Specialist</span>
+									<span class="new badge light-green" data-badge-caption="2012 - 2013"></span>
+								</div>
+								<div>
+									<span class="cv-sub grey-text">Forecasting and Planning Technologies Inc.,
+										Bangladesh</span>
+								</div>
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Real Estate Selling System</span>
+									<ul class="cv-list browser-default">
+										<li>Worked with a team consisting of a Lead Programmer, Programmer (IT
+											Specialist) and an Analyst in developing new modules and customizing
+											existing modules designed and specified by the Project Manager and the
+											Analyst.</li>
+										
+										
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div> -->
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3">Education</div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3">
+								</span><span class="cv-spctext grey-text"></span>
+								
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: B.S.c in Computer Science & Engineering</span>
+									<li class="cv-listtitle">Institution: European University of Bangladesh, Dhaka</li>
+									<li class="cv-listtitle">5th Semester ( Running )</li><br>
+								</div>
+
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: Diploma in Engineering</span>
+									<li class="cv-listtitle">Institution: Kushtia Polytechnic Institute, Kushita</li>
+									<li class="cv-listtitle">Group: Electronics Technology</li>
+									<li class="cv-listtitle">Result: CGPA 3.15</li>
+									<li class="cv-listtitle">Passing Year: 2021</li> <br>
+								</div>
+
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: Secondary School Certificate (SSC)</span>
+									<li class="cv-listtitle">Institution: Patharbaria Mojibar High School, Kushtia</li>
+									<li class="cv-listtitle">Group: General Electronics</li>
+									<li class="cv-listtitle">Result: GPA 4.82</li>
+									<li class="cv-listtitle">Passing Year: 2016</li>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3"> </div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3">WORKSHOP AND TRAINING
+								</span>
+								
+								<div class="col s12 l12">
+									
+									<li class="cv-listtitle">Web Design course 06 Month from Creative It Institute, Dhaka</li>
+									<li class="cv-listtitle">Shop Sales Service Management, Khoksa Kushita</li>
+									<li class="cv-listtitle">Completed 04 (Four) months of Graphics Design course from Govt. Technical Training Center, Kushtia.</li>
+									<li class="cv-listtitle">Completed 06 (Six) months of Computer Office Application course from Kumarkhali Institute of computer Technology, Kushtia.</li>
+									<li class="cv-listtitle">Completed 07 (Seven) days of Computer Office Application course from LGSP 2, Khoksa, Kushtia.</li><br>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3"></div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3 ">COMMUNICATION SKILLS</span>
+								
+								<div class="col s12 l12">
+									<li>Bengali : An excellent command in speaking & writing</li>
+									<li>English : A moderate command in speaking, writing, listening & understanding of
+										English.</li>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="cv-backtotop" class="fixed-action-btn hide">
+			<a href="#fullname" class="btn-floating btn-large deep-orange hoverable"><i
+					class="material-icons">navigation</i></a>
+			<ul></ul>
+		</div>
+	</main>
+
+	<!-- for printing -->
+	<main class="cv-printable">
+		<div class="cv-wrapper container">
+			<div class="center">
+				<div id="fullname" class="row scrollspy">
+					<div class="cv-header">
+						<div class="col s3 l3">
+							<div class="cv-photowrapper white">
+								<img src="/images/6.jpg" alt="jkrisc" class="responsive-img" />
+							</div>
+						</div>
+						<div class="col s9 l9 cv-pinfogroup">
+							<div><span class="card-title cv-fullname cv-title">Md Rannu Ahmed</span></div>
+							<div class="cv-personalinfo">
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny yellow-text text-darken-4">work</i> Web Developer
+								</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny pink-text">location_on</i> Mirpur 2, Dhaka</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny indigo-text">stay_primary_portrait</i> +8801650112891
+								</div>
+								<div class="grey-text text-darken-2 col s12 l12"><i
+										class="material-icons tiny green-text">email</i> rbriyad2@gmail.com</div>
+
+								<div class="grey-text text-darken-2 col s12 l12">
+									Portfolio: <a href="https://github.com/rbriyad2">github.com/rbriyad2</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divider grey"></div>
+				<div class="card-content cv-body white center">
+					<div id="objective" class="row scrollspy">
+						<div class="cv-title text-right col s3 l3">Career Objective</div>
+						<div class="text-left col s9 l9">
+							<div class="col s12 l12 cv-co">
+								To make an excellent career as a Team Controller, I would like to build career having a
+								challenging position with a well-structured organization that is rapidly expanding &
+								effort good advancement potential to prove my knowledge, efficiency, skill and
+								experience. I also like a position with strong emphasis on marketing sector to lead a
+								challenging professional life with a long-term career goal.
+							</div>
+						</div>
+					</div>
+					<div id="skill" class="row scrollspy">
+						<div class="cv-title text-right col s3 l3">Technical Skills</div>
+						<div class="text-left col s9 l9">
+							<div class="col s12 l12">
+								<div class="cv-subtitle light-green-text text-darken-3">Programming Skills</div>
+								<div class="col s6 l6">
+									<ul class="cv-list browser-default">
+										<li>Javascript</li>
+										<li>MS SQL Server</li>
+										<li>Bootstrap</li>
+										<li>jQuery</li>
+										<li>HTML 5</li>
+										<li>CSS 3</li>
+									</ul>
+								</div>
+
+								<div class="cv-subtitle light-green-text text-darken-3">Others Skills</div>
+								<div class="col s6 16">
+									<ul class="cv-list browser-default">
+										<li>Adobe Photoshop Illustrator, Figma, Canva</li>
+										<li>Operating System: Any windows version and android.</li>
+										<li>Office Suite: MS Word, MS Excel, MS Power Point.</li>
+										<li>Online: Support, Website & Server Management</li>
+										<li>Internet: Internet browsing, E-mail , Marketing, Social Media etc</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col light-green-text ">Education Qualifications</div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3">
+								</span><span class="cv-spctext grey-text"></span>
+								
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: B.S.c in Computer Science & Engineering</span>
+									<li class="cv-listtitle">Institution: European University of Bangladesh, Dhaka</li>
+									<li class="cv-listtitle">5th Semester ( Running )</li><br>
+								</div>
+
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: Diploma in Engineering</span>
+									<li class="cv-listtitle">Institution: Kushtia Polytechnic Institute, Kushita</li>
+									<li class="cv-listtitle">Group: Electronics Technology</li>
+									<li class="cv-listtitle">Result: CGPA 3.15</li>
+									<li class="cv-listtitle">Passing Year: 2021</li> <br>
+								</div>
+
+								<div class="col s12 l12">
+									<span class="cv-listtitle">Program: Secondary School Certificate (SSC)</span>
+									<li class="cv-listtitle">Institution: Patharbaria Mojibar High School, Kushtia</li>
+									<li class="cv-listtitle">Group: General Electronics</li>
+									<li class="cv-listtitle">Result: GPA 4.82</li>
+									<li class="cv-listtitle">Passing Year: 2016</li>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3"> </div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3">WORKSHOP AND TRAINING
+								</span>
+								
+								<div class="col s12 l12">
+									
+									<li class="cv-listtitle">Web Design course 06 Month from Creative It Institute, Dhaka</li>
+									<li class="cv-listtitle">Shop Sales Service Management, Khoksa Kushita</li>
+									<li class="cv-listtitle">Completed 04 (Four) months of Graphics Design course from Govt. Technical Training Center, Kushtia.</li>
+									<li class="cv-listtitle">Completed 06 (Six) months of Computer Office Application course from Kumarkhali Institute of computer Technology, Kushtia.</li>
+									<li class="cv-listtitle">Completed 07 (Seven) days of Computer Office Application course from LGSP 2, Khoksa, Kushtia.</li><br>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="education" class="row scrollspy">
+						<div class="cv-title text-right col s12 l3"></div>
+						<div class="text-left col s12 l9">
+							<div class="col s12 l12">
+								<span class="cv-subtitle light-green-text text-darken-3 ">COMMUNICATION SKILLS</span>
+								
+								<div class="col s12 l12">
+									<li>Bengali : An excellent command in speaking & writing</li>
+									<li>English : A moderate command in speaking, writing, listening & understanding of
+										English.</li>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="cv-backtotop" class="fixed-action-btn hide">
+			<a href="#fullname" class="btn-floating btn-large deep-orange hoverable"><i
+					class="material-icons">navigation</i></a>
+			<ul></ul>
+		</div>
+	</main>
+	<footer>
+	</footer>
+	<!-- partial -->
+	<script src='js/cdnjs.cloudflare.com_ajax_libs_jquery_3.1.0_jquery.min.js'></script>
+	<script src='js/cdnjs.cloudflare.com_ajax_libs_materialize_0.97.8_js_materialize.min.js'></script>
+	<script src="./js/cv.js"></script>
+
+</body>
+
+</html>
